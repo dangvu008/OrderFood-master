@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textViewTenBanAn"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorPrimaryDark"
+         />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/imageViewBanAn"
+        android:layout_below="@+id/textViewTenBanAn"
+        android:src="@drawable/banan" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonAn"
+        android:layout_below="@+id/imageViewBanAn"
+        android:layout_alignLeft="@+id/imageViewBanAn"
+        android:layout_alignStart="@+id/imageViewBanAn"
+        android:src="@drawable/anbutton"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/background_material_light"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonGoiMon"
+        android:layout_alignBottom="@+id/imageButtonAn"
+        android:layout_toRightOf="@+id/imageButtonAn"
+        android:layout_toEndOf="@+id/imageButtonAn"
+        android:src="@drawable/goimon"
+        android:layout_marginRight="5dp"
+        android:background="@color/background_material_light"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonThanhToan"
+        android:layout_alignBottom="@+id/imageButtonGoiMon"
+        android:layout_toRightOf="@+id/imageButtonGoiMon"
+        android:layout_toEndOf="@+id/imageButtonGoiMon"
+        android:src="@drawable/thanhtoan"
+        android:layout_marginRight="5dp"
+        android:background="@color/background_material_light"
+        android:visibility="invisible" />
+</RelativeLayout>

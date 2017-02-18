@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dang.orderfood.RegisterActivity"
+    android:padding="15dp"
+    android:background="@color/colorPrimary"
+    android:paddingTop="30dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Register"
+        android:id="@+id/textViewDangKi"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/colorBackgroudEdittext"
+        android:typeface="monospace" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:padding="10dp"
+        android:paddingTop="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignWithParentIfMissing="false">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/validTenNhanVien"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            >
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="12"
+                android:id="@+id/editTenNhanVien"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:padding="@dimen/padding_edittext"
+                android:hint="@string/Name"
+                android:drawableLeft="@drawable/ic_reddit"
+                android:paddingLeft="15dp"
+                android:background="@color/colorBackgroudEdittext"
+                android:layout_margin="@dimen/margin_form_register" />
+
+        </android.support.design.widget.TextInputLayout>
+
+       <android.support.design.widget.TextInputLayout
+           android:id="@+id/validTenDangNhap"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint=""
+           >
+           <EditText
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:inputType="textPersonName"
+               android:ems="12"
+               android:id="@+id/editTenDangNhap"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentEnd="true"
+               android:padding="@dimen/padding_edittext"
+               android:hint="@string/UserName"
+               android:drawableLeft="@drawable/ic_user"
+               android:paddingLeft="15dp"
+               android:background="@color/colorBackgroudEdittext"
+               android:layout_margin="@dimen/margin_form_register" />
+       </android.support.design.widget.TextInputLayout>
+
+       <android.support.design.widget.TextInputLayout
+           android:id="@+id/validMatKhau"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint=""
+           >
+           <EditText
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:inputType="textPassword"
+               android:ems="10"
+               android:id="@+id/editMatKhau"
+               android:hint="@string/Password"
+               android:drawableLeft="@drawable/ic_key"
+               android:background="@color/colorBackgroudEdittext"
+               android:padding="@dimen/padding_edittext"
+               android:layout_margin="@dimen/margin_form_register"/>
+       </android.support.design.widget.TextInputLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/rbGroupSex"
+            android:padding="@dimen/padding_edittext"
+            android:layout_margin="@dimen/margin_form_register"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nam"
+                android:id="@+id/radioButtonMale"
+                android:hint="Nam" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nữ"
+                android:id="@+id/radioButtonFemale" />
+        </RadioGroup>
+       <android.support.design.widget.TextInputLayout
+           android:id="@+id/validNgaySinh"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint=""
+           >
+           <EditText
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:inputType="datetime|textPersonName"
+               android:ems="12"
+               android:id="@+id/editNgaySinh"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentEnd="true"
+               android:padding="@dimen/padding_edittext"
+               android:hint="@string/Birth"
+               android:drawableLeft="@drawable/ic_calendar"
+               android:background="@color/colorBackgroudEdittext"
+               android:layout_margin="@dimen/margin_form_register"
+               />
+       </android.support.design.widget.TextInputLayout>
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/validCmnd"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint=""
+          >
+          <EditText
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:inputType="number|textPersonName"
+              android:ems="12"
+              android:id="@+id/editCmnd"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentEnd="true"
+              android:hint="@string/code"
+              android:drawableLeft="@drawable/ic_zip"
+              android:padding="@dimen/padding_edittext"
+              android:background="@color/colorBackgroudEdittext"
+              android:layout_margin="@dimen/margin_form_register"
+              android:maxLength="9"
+              android:numeric="signed|integer|decimal" />
+      </android.support.design.widget.TextInputLayout>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerQuyen" />
+        <LinearLayout
+            android:layout_margin="@dimen/margin_form_register"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/igone"
+                android:id="@+id/buttonDongY"
+                android:layout_weight="1"
+                android:background="@color/colorButtonIgone"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Exit"
+                android:id="@+id/buttonThoat"
+                android:layout_weight="1"
+                android:background="@color/colorButtonExit"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

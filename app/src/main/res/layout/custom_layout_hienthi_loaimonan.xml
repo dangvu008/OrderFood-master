@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/imageLoaiMonAn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundheader1"
+    android:scaleType="centerCrop"
+    />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorTransparent"
+        android:layout_gravity="bottom"
+        >
+        <TextView
+            android:id="@+id/tenLoaiMonAn_hienthi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ten loai mon an"
+            android:layout_gravity="center"
+            android:textColor="@color/colorBackgroudEdittext"
+            android:textStyle="bold"
+            />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTransparent"
+    >
+
+    <ImageView
+        android:id="@+id/imHinhNhanVien"
+
+        android:src="@drawable/nhanvien"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+       />
+
+    <TextView
+        android:id="@+id/textviewTenNhanVien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên nhân viên"
+
+        android:textColor="@color/colorButtonExit"
+        android:layout_marginTop="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewCmnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="09407409875"
+        android:textStyle="bold"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+
+</RelativeLayout>

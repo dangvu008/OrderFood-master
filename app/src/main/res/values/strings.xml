@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">OrderFood</string>
+    <string name="UserName">Tên Đăng Nhập</string>
+    <string name="Password">Mật Khẩu</string>
+    <string name="Register">Đăng Kí</string>
+    <string name="Reset">Nhập Lại</string>
+    <string name="Birth">Ngày Sinh</string>
+    <string name="code">CMTND</string>
+    <string name="Exit">Thoát</string>
+    <string name="igone">Đồng Ý</string>
+    <string name="Name">Tên Nhân Viên</string>
+    <string name="toast_gioitinh">Chọn giới tính !</string>
+    <string name="valid_nhanvien">điền thông tin nhân viên</string>
+    <string name="valid_tendangnhap">Nhập tên đăng nhập</string>
+    <string name="valid_matkhau">Nhập mật khẩu</string>
+    <string name="valid_ngaysinh">Nhập ngày sinh</string>
+    <string name="namsinh">Năm sinh</string>
+    <string name="cmnd">Nhập số cmnd</string>
+    <string name="validate_cmnd_dinhdang">Số cmnd sai định dạng !</string>
+    <string name="validate_ngaysinh_dinhdang">sai định dạng ngày!</string>
+    <string name="dangnhap">Đăng Nhập</string>
+    <string name="dangnhapthanhcong">Đăng Nhập thành công !</string>
+    <string name="dangnhapthatbai">Đăng nhập thất bại !</string>
+    <string name="trangchu">Trang chủ</string>
+    <string name="thucdon">Thực đơn</string>
+    <string name="nhanvien">Nhân viên</string>
+    <string name="thongke">Thống kê</string>
+    <string name="caidat">Cài đặt</string>
+    <string name="mo">Mở</string>
+    <string name="dong">Đóng</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thembanan">Thêm bàn ăn</string>
+    <string name="themBanAnThanhCong">Thêm bàn ăn thành công !</string>
+    <string name="themBanAnThatBai">Thêm bàn ăn thất bại</string>
+    <string name="themMonAn">Thêm món ăn</string>
+    <string name="themloaimonan">Thêm loại món ăn</string>
+    <string name="themloaiMonAnThanhCong">Thêm loại món ăn thành công !</string>
+</resources>

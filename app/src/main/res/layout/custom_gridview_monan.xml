@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView_hienthi_monan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundheader1"
+        android:scaleType="centerCrop"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="left|bottom"
+        android:background="@color/colorTransparent"
+        >
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView_hienthi_tenMonAn"
+            android:text="Ten mon an"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView_hienthi_giaMonAn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gia mon"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+</FrameLayout>
